@@ -1,0 +1,126 @@
+.App{
+  text-align: center;
+}
+
+.keanu {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+  background-color: gray;
+}
+
+.footer {
+  background-color: gray;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.madeby {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.promjenjivo {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  background-color:lightgray;
+}
+
+.link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: purple;
+}
+
+.link:visited {
+  color: darkblue;
+}
+
+.link:hover {
+  color: darkred;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.vintage{
+  height: 600px;
+  width: 680px;
+}
+
+table {
+  margin: auto;
+}
+
+.galerija {
+  height: 500px;
+  width: 470px;
+}
+
+.dvakeanua {
+  height: 510px;
+  width: 420px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.filmovi {
+  height: 310px;
+  width: 220px;
+} 
+
+.filmovi:hover {
+  height: 450px;
+  width: 360px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.tekst {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrap:hover .tekst {
+  visibility: visible;
+  opacity: 1;
+}
+
+.wrap:hover .galerija {
+  visibility: visible;
+  opacity: 0.4;
+  background-color: lightgray;
+}
