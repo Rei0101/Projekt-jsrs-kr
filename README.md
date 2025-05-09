@@ -1,6 +1,6 @@
 ### Srednjoškolski projekt
 
-React app dedicated to actor Keanu Reeves.
+React app dedicated to actor Keanu Reeves.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
